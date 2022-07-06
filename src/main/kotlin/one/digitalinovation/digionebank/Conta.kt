@@ -2,16 +2,16 @@ package one.digitalinovation.digionebank
 
 import java.math.BigDecimal
 
-class Conta (
+class Conta(
     val agencia:String,
     val numeroConta:String,
-    val saldo:BigDecimal
+    val saldo: BigDecimal
 ){
-    fun deposito(valor:BigDecimal){
+    fun deposito(valor: BigDecimal){
 
     }
 
-    fun saque(valor:BigDecimal){
-        
+    fun saque(valor: BigDecimal){
+
     }
 }
